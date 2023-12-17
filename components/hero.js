@@ -17,14 +17,14 @@ const Hero = () => {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+                href=""
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-600 rounded-md ">
                 Download for Free
               </a>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="https://github.com/"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
