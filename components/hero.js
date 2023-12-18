@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
+import Lottie from "lottie-react";
+import rozgAR from "../public/Hero.json";
 
 const Hero = () => {
   return (
@@ -46,7 +48,7 @@ const Hero = () => {
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
-            <Image
+            {/* <Image
               src={heroImg}
               width="616"
               height="617"
@@ -54,7 +56,9 @@ const Hero = () => {
               alt="Hero Illustration"
               loading="eager"
               placeholder="blur"
-            />
+            /> */}
+            <Lottie animationData={rozgAR} />
+
           </div>
         </div>
       </Container>
