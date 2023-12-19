@@ -14,12 +14,11 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
-        {/* Logo  */}
+      <nav className="w-full relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         <Disclosure>
           {({ open }) => (
             <>
-              <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
+              <div className="flex flex-wrap items-center justify-between w-full lg:w-auto p-3">
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-blue-500 dark:text-gray-100">
                     <span>

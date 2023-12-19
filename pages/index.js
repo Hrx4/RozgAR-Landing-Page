@@ -22,13 +22,14 @@ const Home = () => {
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
         />
         <link rel="icon" href="/favicon.ico" />
+        
       </Head>
 
       <Navbar />
       <Hero />
       <SectionTitle
         pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
+        title=" Why Use RozgAR ?">
        Discover your dream job with RozgAR, India's pioneering app merging augmented reality to revolutionize how you find and explore career opportunities.
       </SectionTitle>
       <Benefits data={benefitOne} />

@@ -105,20 +105,14 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © RozgAR. Made with ♥ by{" "}
-          <a
-            href="https://Sponsorgenix.in/"
-            target="_blank"
+          Copyright © RozgAR. Made with ♥ by Bytebandits
+
+          <div
+            // href="https://Sponsorgenix.in/"
+            // target="_blank"
             rel="noopener">
-           Sponsorgenix
-          </a>{" "}
-          Illustrations from{" "}
-          <a
-            href="https://www.Sponsorgenix.in/"
-            target="_blank"
-            rel="noopener ">
-            Sponsorgenix
-          </a>
+          </div>
+          
         </div>
       </Container>
       {/* Do not remove this */}
@@ -196,7 +190,6 @@ const Backlink = () => {
         />
       </svg> */}
 
-      <span>Sponsorgenix</span>
     </a>
   );
 };
